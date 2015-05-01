@@ -1,0 +1,1 @@
+获取最新的gfwlist，而无需翻墙，用于浏览器auto-proxy插件（如chrome的switchy）的在线规则

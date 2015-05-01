@@ -1,0 +1,6 @@
+{
+    "applicationName" : "gfwlist",
+    "global": {
+        "avVersion": "0.3.1"
+    }
+}
