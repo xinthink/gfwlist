@@ -1,0 +1,12 @@
+{
+  "name": "gfwlist",
+  "private": true,
+  "version": "0.0.0",
+  "repository": "git@github.com:xinthink/gfwlist.git",
+  "devDependencies": {
+    "express": "3.4.x"
+  },
+  "dependencies": {
+    "request": "~2.55.0"
+  }
+}
