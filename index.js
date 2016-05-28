@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var request = require('request');
 
-var GFW_LIST_URL = 'http://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt';
+var GFW_LIST_URL = 'https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt';
 
 
 app.set('port', (process.env.PORT || 5000));
