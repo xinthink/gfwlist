@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 var request = require('request');
 
-var GFW_LIST_URL = 'https://github.com/gfwlist/gfwlist/blob/master/gfwlist.txt';
+var GFW_LIST_URL = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt';
 
 
 app.set('port', (process.env.PORT || 5000));
