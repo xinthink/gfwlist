@@ -1,0 +1,25 @@
+{
+  "name": "gfwlist",
+  "version": "1.0.0",
+  "description": "A gfwlist fetcher.",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "prestart": "npm run build",
+    "start": "func start",
+    "test": "echo \"No tests yet...\"",
+    "npm-lock": "synp -f -s yarn.lock",
+    "clean": "rm -rf dist package-lock.json",
+    "build-prod": "yarn clean && yarn build && yarn npm-lock"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.8"
+  },
+  "devDependencies": {
+    "@azure/functions": "^1.0.2-beta2",
+    "@types/request-promise-native": "^1.0.17",
+    "synp": "^1.7.0",
+    "typescript": "^3.3.3"
+  }
+}
