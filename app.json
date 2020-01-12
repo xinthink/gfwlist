@@ -1,7 +1,0 @@
-{
-  "name": "gfwlist",
-  "description": "A gfwlist fetcher",
-  "repository": "https://github.com/xinthink/gfwlist",
-  "logo": "https://raw.githubusercontent.com/xinthink/gfwlist/master/public/node.svg",
-  "keywords": ["node", "heroku", "gfwlist"]
-}
